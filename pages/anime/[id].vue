@@ -58,7 +58,7 @@ const formatDuration = (duration) => {
 function getAiringDay() {
   const airingDate = new Date(anime?.value.nextair?.airingAt * 1000);
   const daysOfWeek = [
-    "Sunday",
+    "Samedi",
     "Monday",
     "Tuesday",
     "Wednesday",
