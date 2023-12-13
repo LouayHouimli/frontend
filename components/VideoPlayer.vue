@@ -56,14 +56,14 @@ export default {
         {
           html: `© amvstrm ${new Date().getFullYear()}`,
           click: function () {
-            window.open("/");
+            window.open("google.com");
           },
         },
       ],
       layers: [
         {
           name: "amv_logo",
-          html: `<img src="/logo.png" width="100px">`,
+          html: `<h1>Louayanime.to</h1>`,
           style: {
             position: "absolute",
             top: "20px",
