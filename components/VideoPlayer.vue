@@ -32,7 +32,7 @@ export default {
     window.hls = new Hls();
     this.instance = new Artplayer({
       ...this.option,
-      container: this.$refs.artRef,
+      container: '.artplayer-app',
       whitelist: ["*"],
       plugins: [
         artplayerPluginHlsQuality({
