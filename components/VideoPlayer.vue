@@ -43,35 +43,7 @@ export default {
         artplayerPluginVttThumbnail({
           vtt: this.vtt,
         }),
-        artplayerPluginAds({
-            // HTML ad, ignored if it's a video ad
-            html: '<img src="/assets/sample/poster.jpg">',
-
-            // URL of the video ad
-            video: '/jumia.mp4',
-
-            // Ad redirect URL, no redirection if empty
-            url: 'https://louayv1.vercel.app',
-
-            // The duration that must be watched, which can't be skipped, in seconds
-            // If this value is greater than or equal to totalDuration, the ad can't be closed early
-            // If this value is less than or equal to 0, then the ad can be closed at any time
-            playDuration: 5,
-
-            // Total duration of the ad, in seconds
-            totalDuration: 43,
-
-            // Whether the video ad is muted by default
-            muted: false,
-
-            // Multilingual support
-            i18n: {
-                close: 'Close ad',
-                countdown: '%s seconds',
-                detail: 'See details',
-                canBeClosed: '%s seconds until the ad can be closed',
-            },
-        }),
+        
       ],
       icons: {
         loading: `
