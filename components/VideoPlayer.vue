@@ -59,7 +59,7 @@ export default {
             playDuration: 5,
 
             // Total duration of the ad, in seconds
-            totalDuration: 10,
+            totalDuration: 43,
 
             // Whether the video ad is muted by default
             muted: false,
