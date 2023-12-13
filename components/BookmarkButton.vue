@@ -4,7 +4,7 @@
     :color="bookmarkColor"
     @click="handleBookmark"
   >
-    {{ isAlreadyBookmarked ? "Unbookmarked" : "Bookmark" }}
+    {{ isAlreadyBookmarked ? "Unbookmark" : "Bookmark" }}
   </v-btn>
 </template>
 
