@@ -67,7 +67,7 @@ export default {
           style: {
             position: "absolute",
             top: "20px",
-            right: "20px",
+            left: "20px",
           },
         },
       ],
