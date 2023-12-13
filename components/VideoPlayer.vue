@@ -68,6 +68,7 @@ export default {
             position: "absolute",
             top: "20px",
             left: "20px",
+            opacity: 0.8,
           },
         },
       ],
